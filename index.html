@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html ng-app="studentsApp">
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+
+ <head>
+	  <title>
+		Website Home Page
+	  </title>
+	   <script type="text/javascript"></script>
+	   <link rel="stylesheet" 
+
+	   
+	   
+	   
+     href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	   <script src="https://code.angularjs.org/1.4.0-rc.2/angular.js"></script>
+	   <script src="https://code.angularjs.org/1.4.0-rc.2/angular-resource.js"></script>
+	   <script src="https://code.angularjs.org/1.4.0-rc.2/angular-messages.js"></script>
+	   <script src="https://code.angularjs.org/1.5.0-rc.2/angular-route.min.js"></script>
+	   <script src="studentsApp.js"></script>
+	   
+	   <style>
+     #column{
+	 width:300px;
+	 background-color:#F5F5DC;
+	 height:800px;
+	 float: left;
+	 padding:5px;
+	
+	 }
+	 
+	 #section{
+	 width:300px;
+	 float:left;
+	 padding:20px;
+	 margin: 10px;
+	 background-color:#F5F5DC;
+	 }
+	 
+   
+   </style>
+	   
+ </head>
+    <body>
+		  <header>
+			  <nav class="navbar navbar-default">
+				 <div class="container">
+					  <div class="nav navbar-header">
+						 <a class="nav navbar-brand " href="#" ><b>WEBSITE NAME</b></a>
+					  </div>
+					  <div class="nav navbar-nav navbar-right">
+					    <a href="#/home"><b>HOME</b></a>
+						
+					  </div>
+				 </div>
+									   
+			  </nav>
+			 
+		  </header>
+		  
+		  <div >
+		     <div id="column">
+					 <div id="list">
+						 <ul class="list-group">
+								  <li> <a href="#/main" class="list-group-item" >STUDENTS </a></li>
+								  <li> <a href="" class="list-group-item">COLLEGES </a></li>
+								  <li> <a  href="" class="list-group-item"> BOARD MEMEBERS </a> </li>
+								  <li> <a href="" class="list-group-item">ADMINISTRATION </a></li>
+								  <li> <a href="" class="list-group-item">STAFF</a></li>
+						</ul>
+					 </div>
+			 </div>
+			 <div id="section" ng-view >
+			  <div>
+			    <h1>HOME PAGE</h1>
+			  </div>
+			   
+			   
+			   
+			 </div>
+			 
+		  </div>
+	</body>
+	</html>
+				
+				

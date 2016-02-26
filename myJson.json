@@ -1,0 +1,22 @@
+
+[
+	   {
+			"name": "Tom",
+			"Age": "22",
+			"Qualification": "Btech",
+			"College": "Gitam"
+		},
+		{
+			"name": "Harry",
+			"Age": "21",
+			"Qualification": "BTech",
+			"College": "Gayatri"
+		},
+		{
+			"name": "Sam",
+			"Age": "25",
+			"Qualification": "BTech",
+			"College": "AU"
+		}
+		
+		]
